@@ -179,6 +179,16 @@ print(",".join(D))
 **OR**
 
 ```python
+#Solution By - Utkarsh4697
+C, H = 50, 30
+def cal(D):
+    return ((2*C*float(D))/H)**(1/2)
+print(*(''.join(str(round(cal(i)))) for i in input().split(',')),sep=',')
+```
+
+**OR**
+
+```python
 from math import sqrt
 
 C,H = 50,30
@@ -240,8 +250,14 @@ for D in my_list:
     x.append(round(Q))
 
 print(','.join(map(str, x)))
-```
+
+```Solution By - Utkarsh4697
 ---
+C, H = 50, 30
+def cal(D):
+    return ((2*C*float(D))/H)**(1/2)
+print(*(''.join(str(round(cal(i)))) for i in input().split(',')),sep=',')
+
 
 # Question 7
 
