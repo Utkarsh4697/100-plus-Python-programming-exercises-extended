@@ -75,6 +75,17 @@ for words in inp_string:
         out_string.append(words)
 print(" ".join(sorted(out_string)))
 ```
+
+```Solution by - Utkarsh4697
+word = input().split()
+
+for i in word:
+    while word.count(i) > 1:
+        word.remove(i)
+
+word.sort()
+print(" ".join(word))
+```
 ---
 
 # Question 11
