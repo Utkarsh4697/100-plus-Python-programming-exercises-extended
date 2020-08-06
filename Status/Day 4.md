@@ -180,6 +180,19 @@ print(question_15(inp))
 ```
 ---
 
+```python
+'''Solution by: Utkarsh4697
+'''
+a = input()
+n = int(input())
+temp = 0
+for i in range(1, n+1):
+    temp += int(i*(a))
+
+print(temp)
+```
+---
+
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%203.md "Day 3")
 
 [**_go to next day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%205.md "Day 5")
