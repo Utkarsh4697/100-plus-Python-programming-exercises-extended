@@ -231,6 +231,30 @@ while 1:
     print(f'Your current balance is: {money}')
 ```
 ---
+```python
+'''Solution by: Utkarsh4697
+'''
+
+from click._compat import raw_input
+D_list = []
+W_list = []
+while True:
+    bank = raw_input()
+    if not bank:
+        break
+    value = bank.split(' ')
+    Operation = value[0]
+    amount = int(value[1])
+    if Operation == 'D':
+        D_list.append(amount)
+    elif Operation == 'W':
+        W_list.append(amount)
+    else:
+        break
+
+print(sum(D_list) - sum(W_list))
+```
+---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day%204.md "Day 4")
 
