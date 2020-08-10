@@ -192,6 +192,16 @@ if x == 'yes':
 else:
     print('No')
 ```
+```
+Solution by: Utkarsh4697
+'''
+s = input('Enter the String : ')
+a = ['Yes', 'YES', 'yes']
+if s in a:
+    print('YES')
+else:
+    print('NO')
+```
 --------
 
 # Question 41
